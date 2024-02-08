@@ -1,28 +1,32 @@
 package com.mycompany.csc229_211review_lab02hw;
+import java.util.Scanner;
 
 /**
  *
- * @author MoaathAlrajab
+ * @author MoaathAlrajab, JaredTobias
  */
+
 public class DriverClass {
 	
 	public static void main(String[] args) {
-		// ToDo 5: Fix the error
-		
-		// ToDo 6: Fix the constructor of Student class
-		
-		// ToDo 7: Add a toString method for Student class
-		
-		Student std1= new Student("James", 20);
-		
-		// ToDo 8: Set the gpa of the student using the scanner and user
-		// 			input and then print the output.
-		
-		System.out.println(std1);
-		
-		// ToDo 9: add comments and explain your code
-		
-		// ToDo 10: submit using a pull request.
+
+		Scanner input = new Scanner(System.in);
+
+		// user inputs for each field of the student class
+		System.out.print("Enter your name: ");
+		String userName = input.nextLine();
+
+		System.out.print("Enter your age: ");
+		short userAge = input.nextShort();
+
+		System.out.print("Enter your GPA: ");
+		double userGPA = input.nextDouble();
+
+		// instance of the student class using scanner inputs as parameters
+		Student std1= new Student(userName, userAge, userGPA);
+
+		// output for GPA
+		System.out.println("The GPA for " + std1.getName() + " is " + std1.getGPA());
 	}
 
 }
