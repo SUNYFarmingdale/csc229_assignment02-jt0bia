@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author MoaathAlrajab, JaredTobias
+ * @author MoaathAlrajab, Jared Tobias
  */
 
 public class DriverClass {

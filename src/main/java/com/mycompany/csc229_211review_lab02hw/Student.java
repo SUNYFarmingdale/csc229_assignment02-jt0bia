@@ -2,7 +2,7 @@ package com.mycompany.csc229_211review_lab02hw;
 
 /**
  *
- * @author MoaathAlrajab, JaredTobias
+ * @author MoaathAlrajab, Jared Tobias
  */
 
 // Used extends to make Student a child of Person
